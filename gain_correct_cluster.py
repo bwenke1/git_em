@@ -1,3 +1,4 @@
+#this file needs to go into the folder where the tifs are
 #fix the defect file
 sed '/4664 2/s//4663 4/' defects.txt >defects-4row.txt
 
