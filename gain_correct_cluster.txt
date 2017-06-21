@@ -1,5 +1,8 @@
-#this file needs to go into the folder where the tifs are
-#fix the defect file
+"""This is not a script. These are instructions."""
+
+put these in the folder where the tifs are
+
+fix the defect file
 sed '/4664 2/s//4663 4/' defects.txt >defects-4row.txt
 
 file 1:20170617_gaincor.sh
@@ -64,11 +67,11 @@ file 2: qsub_gaincor.sh
 
 # Source
 
-#source /programs/sbgrid.shrc
+source /programs/sbgrid.shrc
 
 # Switch to the working directory;
 
-#cd $PBS_O_WORKDIR
+cd $PBS_O_WORKDIR
 
 ./20170617_gaincor.sh input_tif.txt
 
